@@ -1,0 +1,19 @@
+@keyframes spin {
+  33% {
+    transform: rotate(-45deg) translateY(-5px);
+  }
+  66% {
+    transform: rotate(-90deg) translateY(0px);
+  }
+  99% {
+    transform: rotate(-135deg) translateY(0px);
+  }
+}
+
+.crawler {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background: yellow;
+  animation: spin 0.5s infinite;
+}
